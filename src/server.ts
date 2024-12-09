@@ -38,7 +38,7 @@ const corsOptions: CorsOptions = {
     allowedHeaders: ["Content-Type", "Authorization"] // Encabezados permitidos
 };
 
-server.use(cors(corsOptions));
+server.use(cors(corsOptions)); 
 
 // Leer datos de formularios
 server.use(express.json());
